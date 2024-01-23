@@ -1,0 +1,12 @@
+info
+show
+insert 1 {id=1,name=Bill,coordinatesX=5,coordinatesY=8.9,creationDate=2024-01-01,fromX=10.0,fromY=11,fromName=dl;afjkds,distance=38,toX=5.6,toY=8,toName=sd;aljdlsk;jruewioqu}
+insert 2 {id=2,name=Van,coordinatesX=15,coordinatesY=7.9,creationDate=2024-01-01,fromX=12.0,fromY=12,fromName=dsafsd,distance=69}
+insert 2 {id=2,name=Van,coordinatesX=15,coordinatesY=7.9,creationDate=2024-01-01,fromX=12.0,fromY=12,fromName=dsafsd,distance=69}
+insert 3 {id=3,name=A,coordinatesX=15,coordinatesY=7.9,creationDate=2024-01-01,fromX=12.0,fromY=12,fromName=dsafsd,distance=117}
+show
+remove_lower {id=2,name=Van,coordinatesX=15,coordinatesY=7.9,creationDate=2024-01-01,fromX=12.0,fromY=12,fromName=dsafsd,distance=69}
+remove_greater {id=2,name=Van,coordinatesX=15,coordinatesY=7.9,creationDate=2024-01-01,fromX=12.0,fromY=12,fromName=dsafsd,distance=69}
+show
+average_of_distance
+print_field_ascending_distance
